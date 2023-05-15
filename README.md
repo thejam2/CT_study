@@ -51,3 +51,17 @@ arr.sort((a,b)=>b-a);   //숫자 내림차순
 
 양수에 대해서는 Math.floor()과 같고 음수에 대해서는 Math.ceil()과 같은 결과를 나타낸다. 
 
+## reduce
+reduce함수는 배열의 각 요소를 순회하며 callback함수의 실행 값을 누적하여 하나의 결과값을 반환 합니다.
+
+다음 4가지의 인수를 가집니다.
+1. accumulator - accumulator는 callback함수의 반환값을 누적합니다.
+2. currentValue - 배열의 현재 요소
+3. index(Optional) - 배열의 현재 요소의 인덱스
+4. array(Optional) - 호출한 배열
+
+```
+arr.reduce((accumulator, currentValue, index, array)=>{
+}, 초기값(option));
+```
+
