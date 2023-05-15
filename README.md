@@ -26,9 +26,9 @@ for (var prop in obj) {
 }
 ```
 ### for …of 반복문
-for of 반복문은 ES6에 추가된 새로운 컬렉션 전용 반복 구문입니다.
+for of문은 반복 가능한 객체의 값을 반복합니다.
 
-for of 구문을 사용하기 위해선 컬렉션 객체가 [Symbol.iterator] 속성을 가지고 있어야만 합니다(직접 명시 가능).
+Arrays, Strings, Maps, NodeLists 등과 같은 반복 가능한 데이터 구조를 반복할 수 있습니다
 ```
 var iterable = [10, 20, 30];
 
