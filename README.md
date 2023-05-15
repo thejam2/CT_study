@@ -65,3 +65,4 @@ arr.reduce((accumulator, currentValue, index, array)=>{
 }, 초기값(option));
 ```
 
+## filter
