@@ -37,6 +37,15 @@ for (var value of iterable) {
 }
 ```
 
+## sort
+정렬
+```
+arr.sort(); //배열의 element들은 문자열로 취급되어, 유니코드 값 순서대로 정렬
+arr.sort((a,b)=>a-b);   //숫자 오름차순
+arr.sort((a,b)=>b-a);   //숫자 내림차순
+
+```
+
 ## ~~
 ~~ 는 이중 NOT 의 비트 연산자 이다.
 
