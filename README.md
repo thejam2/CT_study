@@ -66,3 +66,26 @@ arr.reduce((accumulator, currentValue, index, array)=>{
 ```
 
 ## filter
+filter() 메서드는 주어진 함수의 테스트를 통과하는 모든 요소를 모아 새로운 배열로 반환
+```
+const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+const result = words.filter(word => word.length > 6);
+
+console.log(result);
+// Expected output: Array ["exuberant", "destruction", "present"]
+```
+
+
+### 최대공약수, 최소공배수
+```
+// 최대공약수
+function gcd(minNum, maxNum){
+  return (minNum % maxNum) === 0 ? maxNum : gcd(maxNum, minNum % maxNum);
+}
+// 최소공배수
+function lcm(minNum, maxNum){
+  return minNum * maxNum / gcd(minNum, maxNum);
+}
+```
+
