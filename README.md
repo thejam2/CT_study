@@ -102,3 +102,28 @@ shift()
 a ?? b의 결과는 다음과 같습니다.
 a가 null도 아니고 undefined도 아니면 a
 그 외의 경우는 b
+
+
+### Array.from()
+Array.from 은 유사 배열 객체를 배열로 바꾼다.
+```
+Array.from('Tei');
+//["T", "e", "i"]
+```
+
+### Array.join()
+배열에 있는 원소들을 하나의 값으로 만듭니다.
+
+원소들의 구분은 콤마(,)로 합니다.
+
+원소들의 구분을 다른 문자로 하려면 () 안에 원하는 문자를 넣습니다.
+```
+const arr = ['바람', '비', '물'];
+
+console.log(arr.join());
+// 바람,비,물
+console.log(arr.join(''));
+// 바람비물
+console.log(arr.join('-'));
+// 바람-비-물
+```
