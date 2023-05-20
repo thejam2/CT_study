@@ -127,3 +127,19 @@ console.log(arr.join(''));
 console.log(arr.join('-'));
 // 바람-비-물
 ```
+
+### Array.reverse()
+reverse() 메서드는 배열의 순서를 반전합니다. 원본을 수정합니다.
+```
+const array1 = ['one', 'two', 'three'];
+console.log('array1:', array1);
+// Expected output: "array1:" Array ["one", "two", "three"]
+
+const reversed = array1.reverse();
+console.log('reversed:', reversed);
+// Expected output: "reversed:" Array ["three", "two", "one"]
+
+// Careful: reverse is destructive -- it changes the original array.
+console.log('array1:', array1);
+// Expected output: "array1:" Array ["three", "two", "one"]
+```
