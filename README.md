@@ -143,3 +143,6 @@ console.log('reversed:', reversed);
 console.log('array1:', array1);
 // Expected output: "array1:" Array ["three", "two", "one"]
 ```
+
+### indexOf
+indexOf() 메서드는 호출한 String 객체에서 주어진 값과 일치하는 첫 번째 인덱스를 반환합니다. 일치하는 값이 없으면 -1을 반환합니다.
