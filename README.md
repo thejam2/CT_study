@@ -175,3 +175,21 @@ const array1 = [1, 30, 39, 29, 10, 13];
 console.log(array1.every(isBelowThreshold));
 // Expected output: true
 ```
+
+### Array.includes()
+배열이 특정 요소를 포함하고 있는지 판별
+```
+const array1 = [1, 2, 3];
+
+console.log(array1.includes(2));
+// Expected output: true
+
+const pets = ['cat', 'dog', 'bat'];
+
+console.log(pets.includes('cat'));
+// Expected output: true
+
+console.log(pets.includes('at'));
+// Expected output: false
+
+```
