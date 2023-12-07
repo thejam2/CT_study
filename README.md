@@ -208,3 +208,10 @@ months.splice(4, 1, 'May');
 console.log(months);
 // Expected output: Array ["Jan", "Feb", "March", "April", "May"]
 ```
+
+### 절대값
+```
+function difference(a, b) {
+  return Math.abs(a - b);
+}
+```
